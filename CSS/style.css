@@ -14,15 +14,19 @@
 body {
     background-color: #00030C;
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    /*overflow-x: hidden; /* Impede transbordamento horizontal */
 }
 
 .principal {
     display: flex;
     background-image: url(../Assets/Background.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 1440px;
-    height: 680px;
+    background-size: contain; /* Ajusta a imagem ao tamanho da tela */
+    background-position: center; /* Centraliza a imagem */
+    height: 100vh; /* Define a altura como a altura total da tela */
+    width: 100vw;
 }
 .principal__conteudo {
     color: var(--TextoPrincipal-color);
@@ -36,6 +40,7 @@ body {
 
 .principal__conteudo > h1 {
     font-family: 'Inter', sans-serif;
+    text-align: center;
     font-size: 28px;
     font-weight: bold;
     width: 595px;
@@ -56,8 +61,9 @@ body {
     margin-bottom: 16px;
 }
 
-.principal__conteudo > p {
+.principal__conteudo__planos > p {
     color: #C0C0C0;
+    opacity: 80%;
 }
 
 .principal__conteudo__botao1 {
@@ -89,14 +95,15 @@ body {
     font-weight: 400;
 }
 
-.segundaSessao {
+.segundaSecao {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     justify-items: center;
+    height: 70vh;
 }
 
-.segundaSessao__conteudo {
+.segundaSecao__conteudo {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -106,14 +113,14 @@ body {
     gap: 8px;
 }
 
-.segundaSessao__conteudo > h2 {
+.segundaSecao__conteudo > h1 {
     color: var(--TextoPrincipal-color);
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: bold;
 }
 
-.segundaSessao__conteudo > p {
+.segundaSecao__conteudo > p {
     color: var(--TextoSecundario-color);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -121,18 +128,131 @@ body {
     opacity: 80%;
 }
 
-.terceiraSessao {
+.terceiraSecao {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     justify-items: center;
+    height: 70vh;
 }
 
-.terceiraSessao__conteudo > p {
+.terceiraSecao__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.terceiraSecao__conteudo > p {
     color: var(--TextoPrincipal-color);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     opacity: 80%;
+    width: 588px;
+}
 
+.terceiraSecao__botao {
+    text-decoration: none;
+    color: var(--TextoPrincipal-color);
+    height: 56px;
+    background-color: #167BF7;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.quartaSecao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    height: 70vh;
+}
+
+.quartaSecao__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 588px;
+    height: 114px;
+    gap: 8px;
+}
+
+.quartaSecao__conteudo > h1 {
+    color: var(--TextoPrincipal-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.quartaSecao__conteudo > p {
+    color: var(--TextoSecundario-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+.quintaSecao {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    gap: 56px;
+    margin-top: 100px;
+}
+
+.menu__dispositivos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.quintaSecao > h1 {
+    color: var(--TextoPrincipal-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.dispositivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--TextoPrincipal-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dispositivos > img {
+    width: 339px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.rodape__menu > a {
+    text-decoration: none;
+    color: var(--TextoPrincipal-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.rodape > p {
+    color: #C0C0C0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
