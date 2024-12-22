@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --TextoPrincipal-color: #FFFFFF;
+    --TextoSecundario-color: #F9F9F9;    
+}
+
+body {
+    background-image: url(../Assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00030C;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    display: flex;
+    margin-top: 125px;
+    margin-left: 54px;
+}
+.principal__conteudo {
+    color: var(--TextoPrincipal-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 588px;
+    height: 431px;
+    text-align: center;
+    gap: 22px;
+}
+
+.principal__conteudo > h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.principal__conteudo__planos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 512px;
+    height: 307px;
+    gap: 16px;
+}
+
+.principal__imagem {
+    margin-bottom: 16px;
+}
+
+.principal__conteudo > p {
+    color: #C0C0C0;
+}
+
+.principal__conteudo__botao1 {
+    text-decoration: none;
+    color: var(--TextoPrincipal-color);
+    width: 512px;
+    height: 56px;
+    background-color: #167BF7;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+}
+
+.principal__conteudo__botao2 {
+    text-decoration: none;
+    color: var(--TextoPrincipal-color);
+    width: 512px;
+    height: 56px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    padding: 16px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+}
