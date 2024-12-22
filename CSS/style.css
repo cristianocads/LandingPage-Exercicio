@@ -26,7 +26,7 @@ body {
     background-size: contain; /* Ajusta a imagem ao tamanho da tela */
     background-position: center; /* Centraliza a imagem */
     height: 100vh; /* Define a altura como a altura total da tela */
-    width: 100vw;
+    /*width: 100vw;*/
 }
 .principal__conteudo {
     color: var(--TextoPrincipal-color);
