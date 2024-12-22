@@ -13,11 +13,15 @@
 ```markdown
 # LandingPage-Exercicio
 
-Este repositório contém um exercício de criação de uma landing page, desenvolvido como parte de um curso da Alura.
+Este repositório contém um exercício de criação de uma landing page, desenvolvido como parte
+de um curso da Alura.
 
 ## Descrição
 
-O projeto consiste em uma landing page responsiva, com estrutura simples e uso de HTML e CSS. Foi criado com o objetivo de reforçar os conceitos aprendidos no curso de desenvolvimento web.
+O projeto consiste em uma landing page responsiva, com estrutura simples e uso de
+HTML e CSS.
+Foi criado com o objetivo de reforçar os conceitos aprendidos no curso de
+desenvolvimento web.
 
 ## Estrutura do Repositório
 
