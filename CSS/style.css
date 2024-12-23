@@ -13,18 +13,19 @@
 
 body {
     background-color: #00030C;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%;*/
     /*overflow-x: hidden; /* Impede transbordamento horizontal */
 }
 
 .principal {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50%;
     background-image: url(../Assets/Background.png);
     background-repeat: no-repeat;
     background-size: contain; /* Ajusta a imagem ao tamanho da tela */
-    background-position: center; /* Centraliza a imagem */
+   /* background-position: center; /* Centraliza a imagem */
     height: 100vh; /* Define a altura como a altura total da tela */
     /*width: 100vw;*/
 }
