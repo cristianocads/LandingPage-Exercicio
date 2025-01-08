@@ -117,14 +117,14 @@ body {
 .segundaSecao__conteudo > h1 {
     color: var(--TextoPrincipal-color);
     font-family: 'Inter', sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .segundaSecao__conteudo > p {
     color: var(--TextoSecundario-color);
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     opacity: 80%;
 }
@@ -146,7 +146,7 @@ body {
 .terceiraSecao__conteudo > p {
     color: var(--TextoPrincipal-color);
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     opacity: 80%;
     width: 588px;
@@ -161,7 +161,7 @@ body {
     padding: 16px;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -186,14 +186,14 @@ body {
 .quartaSecao__conteudo > h1 {
     color: var(--TextoPrincipal-color);
     font-family: 'Inter', sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .quartaSecao__conteudo > p {
     color: var(--TextoSecundario-color);
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     opacity: 80%;
 }
@@ -215,7 +215,7 @@ body {
 .quintaSecao > h1 {
     color: var(--TextoPrincipal-color);
     font-family: 'Inter', sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
 }
@@ -226,12 +226,8 @@ body {
     justify-content: center;
     color: var(--TextoPrincipal-color);
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 1,5rem;
     font-weight: bold;
-}
-
-.dispositivos > img {
-    width: 339px;
 }
 
 .rodape {
@@ -246,7 +242,7 @@ body {
     text-decoration: none;
     color: var(--TextoPrincipal-color);
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     margin: 5px;
 }
@@ -254,7 +250,7 @@ body {
 .rodape > p {
     color: #C0C0C0;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 0,8rem;
     font-weight: 400;
     text-align: center;
     width: 80%;
@@ -263,3 +259,162 @@ body {
 .rodape__menu > a:hover {
     color: #167BF7;
 }
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        display: block;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .principal {
+        display: block;
+        background-image: none;
+        width: 100%;
+        max-width: 100%;
+        height: 80vh;
+    }
+    .principal__imagem {
+        width: 50vw;
+    }
+    .principal__conteudo {
+        margin: 0;
+        padding: 2rem;
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+    .principal__conteudo > h1 {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .principal__conteudo__botao1 {
+        width: 80vw;
+        max-width: 100%;
+        margin: 0 2rem;
+    }
+    .principal__conteudo__botao2 {
+        width: 80vw;
+        max-width: 100%;
+        margin: 0 2rem;
+    }
+    .principal__conteudo__planos {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .segundaSecao {
+        display: block;
+        height: 80vh;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .segundaSecao > img {
+        width: 60vw;
+    }
+    .segundaSecao__conteudo {
+        width: 100%;
+        max-width: 100%;
+        padding: 2rem;
+        margin: 2rem 0;
+        text-align: center;
+    }
+    .terceiraSecao {
+        display: block;
+        height: 80vh;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .terceiraSecao > img {
+        width: 60vw;
+    }
+    .terceiraSecao__conteudo {
+        width: 100%;
+        max-width: 100%;
+        padding: 2rem;
+        margin: 2rem 0;
+        text-align: center;
+    }
+    .terceiraSecao__conteudo > p {
+        width: 100%;
+        max-width: 100%;
+    }
+    .quartaSecao {
+        display: block;
+        height: 70vh;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .quartaSecao > img {
+        width: 60vw;
+    }
+    .quartaSecao__conteudo {
+        width: 100%;
+        max-width: 100%;
+        padding: 2rem;
+        margin: 2rem 0;
+        text-align: center;
+    }
+    .quartaSecao__conteudo > p {
+        width: 100%;
+        max-width: 100%;
+    }
+    .quintaSecao {
+        display: block;
+        height: 100vh;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+    .quintaSecao > h1 {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .menu__dispositivos {
+        display: block;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .dispositivos > img {
+        width: 60vw;
+    }
+    .rodape {
+        display: block;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .rodape > p {
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+        margin: 0;
+    }
+    .rodape__menu {
+        padding: 2rem;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
